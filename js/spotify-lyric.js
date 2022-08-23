@@ -30,7 +30,7 @@ http-response ^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/ s
 3.qx:
     - 自行配置MITM域名: spclient.wg.spotify.com
     - 手动修改填入下方的appid和securityKey密钥, 并配置重写,类型为script-response-body,
-      正则填入^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/url script- response-body  spotify-lyric.js
+      正则填入^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/
 */
 // 注意: QX用户需要手动填入appid和securityKey密钥, Surge和Loon用户无需填入!!!!
 const options = {
